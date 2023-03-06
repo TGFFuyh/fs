@@ -3,14 +3,14 @@
 /*
 اصل الملف ملف مسلم للارقام(التسليم يدوي)
 تم تطويره وربطه بموقع الارقام بواسطة عبدالرحمن باعقيل
-@innnnn
+@HHMiD
 بمساعدة 
-@ZrrrZ
-مع شكر خاص للمطور 
-يحيى
+@HHMiD
+مع شكر خاص للمطور
+سينو
 */
 ob_start();
-$token = "التوكن";
+$token = "6271062054:AAGc9gk_dszqj0_YgUPfIiyNDnHOkarbpa4";
 define('API_KEY',$token);//add_token
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
